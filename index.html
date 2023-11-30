@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <iconify-icon icon="pajamas:todo-done"></iconify-icon>
+      <h1>todo list</h1>
+    </div>
+    <div id="app">
+      <div class="todo-list-wrapper">
+        <form id="form-todo">
+          <div class="todo-list-input">
+            <input type="text" id="todo-title" placeholder="Add new..." />
+          </div>
+          <button type="submit" class="add-todo">add</button>
+          <button type="button" class="submit-edit-todo">edit</button>
+        </form>
+        <div class="todos">
+          <ul id="todos-list"></ul>
+        </div>
+      </div>
+      <div class="done-list-wrapper">
+        <h2>Done list</h2>
+        <div class="dones">
+          <ul id="dones-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
