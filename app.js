@@ -96,7 +96,6 @@ app.addEventListener("click", function (e) {
   }
   if (e.target.classList.contains("edit-todo")) {
     submitAddButton.style.display = "none";
-    // submitEditButton.style.backgroundColor = "red";
     submitEditButton.classList.add("active");
     getToDo(id);
     submitEditButton.id = id;
