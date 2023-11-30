@@ -25,6 +25,8 @@ body {
 #app {
   display: flex;
   justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.848);
+  border-radius: 20px;
 }
 .header {
   display: flex;
